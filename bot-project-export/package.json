@@ -1,0 +1,19 @@
+{
+  "name": "wnm-access-bot",
+  "version": "1.0.0",
+  "description": "WNM Roblox access-ranking Discord bot + dashboard",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cookie-session": "^2.1.1",
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3"
+  }
+}
